@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test Signup Flow">
+		<classes>
+			<class name="test.SiguUpTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test  name="Test Create and Delete  Wish List Flow">
+		<classes>
+			<class name="test.CreateWishListAndDeleteListTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	<test  name="Test Add With Item To The List Flow">
+		<classes>
+			<class name="test.AddItemWishListTest" />
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

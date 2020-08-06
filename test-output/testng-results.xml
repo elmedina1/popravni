@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67339" started-at="2020-08-07T00:23:55 CEST" finished-at="2020-08-07T00:25:02 CEST">
+    <groups>
+    </groups>
+    <test name="Test Signup Flow" duration-ms="20678" started-at="2020-08-07T00:23:55 CEST" finished-at="2020-08-07T00:24:15 CEST">
+      <class name="test.SiguUpTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.SiguUpTest@76707e36]" name="setUp" is-config="true" duration-ms="10044" started-at="2020-08-07T00:23:55 CEST" finished-at="2020-08-07T00:24:05 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signUpNewUser()[pri:0, instance:test.SiguUpTest@76707e36]" name="signUpNewUser" duration-ms="10568" started-at="2020-08-07T00:24:05 CEST" finished-at="2020-08-07T00:24:15 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpNewUser -->
+      </class> <!-- test.SiguUpTest -->
+    </test> <!-- Test Signup Flow -->
+    <test name="Test Create and Delete  Wish List Flow" duration-ms="27163" started-at="2020-08-07T00:24:15 CEST" finished-at="2020-08-07T00:24:43 CEST">
+      <class name="test.CreateWishListAndDeleteListTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.CreateWishListAndDeleteListTest@27a8c74e]" name="setUp" is-config="true" duration-ms="9510" started-at="2020-08-07T00:24:15 CEST" finished-at="2020-08-07T00:24:25 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:test.CreateWishListAndDeleteListTest@27a8c74e]" name="logIn" is-config="true" duration-ms="3635" started-at="2020-08-07T00:24:25 CEST" finished-at="2020-08-07T00:24:29 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="createWishlist()[pri:0, instance:test.CreateWishListAndDeleteListTest@27a8c74e]" name="createWishlist" duration-ms="13811" started-at="2020-08-07T00:24:29 CEST" finished-at="2020-08-07T00:24:42 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWishlist -->
+        <test-method status="PASS" signature="deleteWishList()[pri:1, instance:test.CreateWishListAndDeleteListTest@27a8c74e]" name="deleteWishList" duration-ms="195" started-at="2020-08-07T00:24:42 CEST" finished-at="2020-08-07T00:24:43 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteWishList -->
+      </class> <!-- test.CreateWishListAndDeleteListTest -->
+    </test> <!-- Test Create and Delete  Wish List Flow -->
+    <test name="Test Add With Item To The List Flow" duration-ms="19441" started-at="2020-08-07T00:24:43 CEST" finished-at="2020-08-07T00:25:02 CEST">
+      <class name="test.AddItemWishListTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.AddItemWishListTest@76f2b07d]" name="setUp" is-config="true" duration-ms="9394" started-at="2020-08-07T00:24:43 CEST" finished-at="2020-08-07T00:24:52 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:test.AddItemWishListTest@76f2b07d]" name="logIn" is-config="true" duration-ms="4569" started-at="2020-08-07T00:24:52 CEST" finished-at="2020-08-07T00:24:56 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="addProductToWishList()[pri:0, instance:test.AddItemWishListTest@76f2b07d]" name="addProductToWishList" duration-ms="5475" started-at="2020-08-07T00:24:56 CEST" finished-at="2020-08-07T00:25:02 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToWishList -->
+      </class> <!-- test.AddItemWishListTest -->
+    </test> <!-- Test Add With Item To The List Flow -->
+  </suite> <!-- Suite -->
+</testng-results>
